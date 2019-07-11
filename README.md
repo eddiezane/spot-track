@@ -4,8 +4,12 @@ A simple library to be used in demos. Grabs the preview url from Spotify's searc
 
 ## Usage
 
+```bash
+npm install spot-track
+```
+
 ```javascript
-const SpotTrack = require('./index')
+const SpotTrack = require('spot-track')
 
 const s = new SpotTrack('YOUR_SPOTIFY_CLIENT_ID', 'YOUR_SPOTIFY_CLIENT_SECRET')
 
