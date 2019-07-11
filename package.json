@@ -1,6 +1,6 @@
 {
   "name": "spot-track",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Searches for a track on Spotify's API and returns the first result's preview url",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/eddiezane/spot-track#readme",
   "dependencies": {
-    "bluebird": "^3.0.5",
-    "request": "^2.65.0"
+    "got": "^9.6.0"
   }
 }
